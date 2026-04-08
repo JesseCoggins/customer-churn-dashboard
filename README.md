@@ -48,8 +48,3 @@ The visual flow is designed to answer:
 - `tableau/Task_1.twbx` as the local source workbook
 - `assets/README.md`
 - `requirements.txt`
-
-## Recommended Next Step
-1. Keep the Tableau Public link current if the dashboard URL changes
-2. Optionally replace or add screenshots as the dashboard design evolves
-3. If you want a stricter GitHub shell later, remove the `.twbx` and keep only the README, screenshots, and public link
