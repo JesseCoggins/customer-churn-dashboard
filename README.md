@@ -5,6 +5,9 @@ This project is a customer churn dashboard designed for executive decision-makin
 
 The best public home for this project is Tableau Public. This GitHub repo is intended to serve as the companion shell with project context, screenshots, and a link to the published dashboard.
 
+## Coursework Context
+This repository packages work originally completed as part of Western Governors University's (WGU) M.S. in Data Analytics program and reorganizes it into a public portfolio format. Screenshots extracted from the original written submission are preserved in `assets/report-extracts/` until the Tableau Public link and cleaner dashboard captures are added.
+
 ## Tableau Public
 Add your published dashboard link here after upload:
 
