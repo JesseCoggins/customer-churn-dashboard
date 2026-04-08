@@ -6,18 +6,18 @@ This project is a customer churn dashboard designed for executive decision-makin
 The best public home for this project is Tableau Public. This GitHub repo is intended to serve as the companion shell with project context, screenshots, and a link to the published dashboard.
 
 ## Coursework Context
-This repository packages work originally completed as part of Western Governors University's (WGU) M.S. in Data Analytics program and reorganizes it into a public portfolio format. Screenshots extracted from the original written submission are preserved in `assets/report-extracts/` until the Tableau Public link and cleaner dashboard captures are added.
+This repository packages work originally completed as part of Western Governors University's (WGU) M.S. in Data Analytics program and reorganizes it into a public portfolio format. Report-extracted screenshots are still preserved in `assets/report-extracts/`, and cleaner dashboard captures from Tableau Desktop are included directly below.
 
 ## Tableau Public
-Add your published dashboard link here after upload:
-
-`Tableau Public URL: [add after publishing]`
+[View the interactive dashboard on Tableau Public](https://public.tableau.com/shared/Z8Z9SR2NB?:display_count=n&:origin=viz_share_link)
 
 ## Selected Visuals
 
-![Dashboard report extract 1](assets/report-extracts/report_image_01.png)
+![Full customer churn dashboard](assets/dashboard_full.png)
 
-![Dashboard report extract 2](assets/report-extracts/report_image_02.png)
+![Churn rate by contract type](assets/contract_type_churn.png)
+
+![Churn rate by state](assets/state_churn_map.png)
 
 ## What It Shows
 - business-facing dashboard design
@@ -50,7 +50,6 @@ The visual flow is designed to answer:
 - `requirements.txt`
 
 ## Recommended Next Step
-1. Publish `tableau/Task_1.twbx` to Tableau Public
-2. Add the Tableau Public URL to this README
-3. Export 2 to 3 screenshots into `assets/`
-4. If you want a stricter GitHub shell, remove the `.twbx` after publishing and keep only the README, screenshots, and public link
+1. Keep the Tableau Public link current if the dashboard URL changes
+2. Optionally replace or add screenshots as the dashboard design evolves
+3. If you want a stricter GitHub shell later, remove the `.twbx` and keep only the README, screenshots, and public link
