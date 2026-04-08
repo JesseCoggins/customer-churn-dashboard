@@ -13,6 +13,12 @@ Add your published dashboard link here after upload:
 
 `Tableau Public URL: [add after publishing]`
 
+## Selected Visuals
+
+![Dashboard report extract 1](assets/report-extracts/report_image_01.png)
+
+![Dashboard report extract 2](assets/report-extracts/report_image_02.png)
+
 ## What It Shows
 - business-facing dashboard design
 - audience-aware data storytelling
