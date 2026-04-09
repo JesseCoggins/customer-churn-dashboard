@@ -45,6 +45,6 @@ The visual flow is designed to answer:
 - which behavioral or billing factors may be contributing
 
 ## Included Files
-- `tableau/Task_1.twbx` as the local source workbook
+- `tableau/customer_churn_dashboard.twbx` as the local source workbook
 - `assets/README.md`
 - `requirements.txt`
