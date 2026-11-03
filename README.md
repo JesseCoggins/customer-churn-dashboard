@@ -1,55 +1,25 @@
-# Customer Churn Dashboard
+# Telecom customer churn dashboard
 
-## Overview
-This project is a customer churn dashboard designed for executive decision-making. Its purpose is to help leadership understand who is churning, where churn is concentrated, and which customer attributes are most associated with customer loss.
+**Which customers should a retention team reach first?** I built a Tableau dashboard for a telecom leadership team to compare churn across contracts, income levels, states and payment methods. Of 10,000 customers, 2,650 churned. The clearest starting point for a retention experiment was the month-to-month group.
 
-The best public home for this project is Tableau Public. This GitHub repo is intended to serve as the companion shell with project context, screenshots, and a link to the published dashboard.
+[Open the interactive dashboard](https://public.tableau.com/shared/Z8Z9SR2NB?:display_count=n&:origin=viz_share_link) · [Follow the technical walkthrough](docs/technical-walkthrough.md) · [Download the Tableau workbook](tableau/customer_churn_dashboard.twbx)
 
-## Academic Context
-Completed during my M.S. in Data Analytics at Western Governors University (WGU), then packaged here as a public portfolio project. Report-extracted screenshots are preserved in `assets/report-extracts/`, and cleaner dashboard captures from Tableau Desktop are included directly below.
+![Tableau dashboard with churn and monthly-charge KPIs above income, contract, state and payment-method views](assets/dashboard_full.png)
 
-## Tableau Public
-[View the interactive dashboard on Tableau Public](https://public.tableau.com/shared/Z8Z9SR2NB?:display_count=n&:origin=viz_share_link)
+## What the retention team can learn
 
-## Technical walkthrough
+| Contract | Customers who churned | Customers on contract | Churn rate |
+|---|---:|---:|---:|
+| Month-to-month | 2,034 | 5,456 | 37.28% |
+| One year | 307 | 2,102 | 14.61% |
+| Two year | 309 | 2,442 | 12.65% |
 
-[Follow the state and contract filters](docs/technical-walkthrough.md), compare within-contract churn rates and see how the denominator changes the interpretation of the payment-method view. The walkthrough includes an excerpt from the original dashboard presentation.
+These rates use the customers on each contract as the denominator. A retention manager could test an offer with month-to-month customers and use a holdout group to measure whether it changes churn. The dashboard alone cannot tell whether switching contracts would keep a customer.
 
-## Selected Visuals
+## Inspect the workbook
 
-![Full customer churn dashboard](assets/dashboard_full.png)
+Start with all states and contracts selected. Overall churn is **26.50%** and the average monthly charge is **$172.62**. Select a state on the map and watch the KPIs and contract view update together. Labels and a color-blind palette help readers follow the changes. [State-filter demonstration, 27 seconds](docs/state-filter-demo.mp4)
 
-![Churn rate by contract type](assets/contract_type_churn.png)
+The walkthrough also explains a common source of confusion. Electronic-check users account for 36.34% of all customers who churned, while 28.34% of electronic-check users churned. Those percentages answer different questions. [Source data](data/telecom_churn.csv) · [Contract chart](assets/contract_type_churn.png) · [State map](assets/state_churn_map.png)
 
-![Churn rate by state](assets/state_churn_map.png)
-
-## What It Shows
-- business-facing dashboard design
-- audience-aware data storytelling
-- interactive filtering and KPI presentation
-
-## Dashboard Features
-- four visualizations focused on churn drivers
-- two interactive filters: `Contract` and `State`
-- two executive-facing KPIs:
-  - overall churn rate: `26.50%`
-  - average monthly charge: `$172.62`
-- color-blind-safe palette for accessibility
-
-## Included Visual Story
-The dashboard highlights:
-- churn across income levels
-- churn by contract type
-- geographic churn concentration by state
-- churn distribution by payment method
-
-The visual flow is designed to answer:
-- who is churning
-- where churn is happening
-- which behavioral or billing factors may be contributing
-
-## Included Files
-- `tableau/customer_churn_dashboard.twbx` as the local source workbook
-- `data/telecom_churn.csv` — source dataset, 10,000 customer records with churn labels, contract type, payment method, charges, and geography
-- `assets/README.md`
-- `requirements.txt`
+*Coursework for the M.S. in Data Analytics at Western Governors University (WGU), D601 Data Storytelling.*
