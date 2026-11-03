@@ -11,6 +11,10 @@ Completed during my M.S. in Data Analytics at Western Governors University (WGU)
 ## Tableau Public
 [View the interactive dashboard on Tableau Public](https://public.tableau.com/shared/Z8Z9SR2NB?:display_count=n&:origin=viz_share_link)
 
+## Technical walkthrough
+
+[Follow the state and contract filters](docs/technical-walkthrough.md), compare within-contract churn rates and see how the denominator changes the interpretation of the payment-method view. The walkthrough includes an excerpt from the original dashboard presentation.
+
 ## Selected Visuals
 
 ![Full customer churn dashboard](assets/dashboard_full.png)
