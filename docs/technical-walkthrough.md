@@ -1,6 +1,6 @@
 # A technical walkthrough of telecom churn
 
-[Open the live Tableau dashboard](https://public.tableau.com/shared/Z8Z9SR2NB?:display_count=n&:origin=viz_share_link) to follow the analysis. The [27-second state-filter demonstration](state-filter-demo.mp4) is an excerpt from my original presentation. It focuses on the dashboard while the written steps explain the interaction.
+[Open the live Tableau dashboard](https://public.tableau.com/app/profile/jesse.coggins6637/viz/ChurnRateDashboard_17756852469330/CustomerChurnDashboardKeyTrendsbyIncomeRegionContractPayment) to follow the analysis. The [27-second state-filter demonstration](state-filter-demo.mp4) is a historical excerpt from the original coursework presentation. Its older chart titles and payment labels differ from the corrected portfolio edition; use the current workbook and screenshots for the reconciled measures.
 
 ## 1. Set the baseline
 
@@ -20,10 +20,14 @@ This comparison suggests a cohort for a retention experiment. It cannot establis
 
 ## 3. Filter to a state
 
-Select Texas on the map. Watch the headline KPIs and contract bars update together. Record the selected geography before comparing two rates. Clear the map selection to return to the national baseline.
+Select Texas on the map. Watch the headline KPIs and contract bars update together. Record the selected geography before comparing rates. The map colors show each state’s share of churned customers, rather than the within-state churn rate. Texas contributes 173 of 2,650 churners (6.53%); 173 of its 603 customers churned (28.69%). Clear the map selection to return to the national baseline.
 
 ## 4. Check the denominator for payment methods
 
 Electronic checks account for 963 of the 2,650 churned customers, or 36.34%. Among all 3,398 electronic-check customers, the churn rate is 28.34%. For retention planning, the first percentage answers where churned customers are concentrated. The second answers how often customers in that payment group churned.
 
 The dashboard uses labels and a color-blind palette so viewers can read values without relying on color. The [packaged workbook](../tableau/customer_churn_dashboard.twbx) and [source data](../data/telecom_churn.csv) accompany the walkthrough.
+
+## 5. Interpret the income distribution
+
+The stacked income bars show how customers are distributed across income bins and churn status. Compare a bin’s churned count with its total count before interpreting a within-bin risk. A larger orange segment by itself does not establish a higher churn probability.
