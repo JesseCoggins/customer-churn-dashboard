@@ -20,6 +20,6 @@ These rates use the customers on each contract as the denominator. A retention m
 
 Start with all states and contracts selected. Overall churn is **26.50%** and the average monthly charge is **$172.62**. Select a state on the map and watch the KPIs and contract view update together. Labels and a color-blind palette help readers follow the changes. [State-filter demonstration, 27 seconds](docs/state-filter-demo.mp4)
 
-The walkthrough also explains a common source of confusion. Electronic-check users account for 36.34% of all customers who churned, while 28.34% of electronic-check users churned. Those percentages answer different questions. [Source data](data/telecom_churn.csv) · [Contract chart](assets/contract_type_churn.png) · [State map](assets/state_churn_map.png)
+The walkthrough also explains a common source of confusion. Electronic-check users account for 36.34% of all customers who churned, while 28.34% of electronic-check users churned. Those percentages answer different questions. [Source data](data/telecom_churn.csv) · [Contract chart](assets/state_churn_map.png) · [State map](assets/contract_type_churn.png)
 
 *Coursework for the M.S. in Data Analytics at Western Governors University (WGU), D601 Data Storytelling.*
