@@ -28,4 +28,8 @@ Payment labels and pie slices use the same churned-customer denominator. Electro
 
 The income view is titled **Customer Distribution by Income**. It shows customer counts as shares of the selected population, separated by churn status. It does not establish that low-income customers have a higher churn probability. Contract bars show within-contract churn rates. The workbook is published on Tableau Public and included here with matching screenshots.
 
+## Data and environment
+
+[Data origin and reuse notes](data/README.md). Open the packaged workbook in Tableau; this project does not require a Python environment.
+
 *Coursework for the M.S. in Data Analytics at Western Governors University (WGU), D601 Data Storytelling.*
