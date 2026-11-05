@@ -26,7 +26,7 @@ Select Texas on the map. Watch the headline KPIs and contract bars update togeth
 
 Electronic checks account for 963 of the 2,650 churned customers, or 36.34%. Among all 3,398 electronic-check customers, the churn rate is 28.34%. For retention planning, the first percentage answers where churned customers are concentrated. The second answers how often customers in that payment group churned.
 
-The dashboard uses labels and a color-blind palette so viewers can read values without relying on color. The [packaged workbook](../tableau/customer_churn_dashboard.twbx) and [source data](../data/telecom_churn.csv) accompany the walkthrough.
+The dashboard uses numeric labels so viewers can read values alongside color. The [packaged workbook](../tableau/customer_churn_dashboard.twbx) and [source data](../data/telecom_churn.csv) accompany the walkthrough.
 
 ## 5. Interpret the income distribution
 
