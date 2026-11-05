@@ -14,11 +14,11 @@
 | One year | 307 | 2,102 | 14.61% |
 | Two year | 309 | 2,442 | 12.65% |
 
-These rates use the customers on each contract as the denominator. A retention manager could test an offer with month-to-month customers and use a holdout group to measure whether it changes churn. The dashboard alone cannot tell whether switching contracts would keep a customer.
+These rates use the customers on each contract as the denominator. A retention manager could test an offer with month-to-month customers and use a holdout group to measure whether it changes churn. I would need a separate retention experiment to test whether switching contracts keeps customers.
 
-## Inspect the workbook
+## Run it yourself
 
-Start with all states and contracts selected. Overall churn is **26.50%** and the average monthly charge is **$172.62**. Select a state on the map and watch the KPIs and contract view update together. Numeric labels help readers follow the values alongside color.
+Start with all states and contracts selected. Overall churn is **26.50%** and the average monthly charge is **$172.62**. Select a state on the map and watch the KPIs and contract view update together. I added numeric labels so readers can compare values alongside color.
 
 [Source data](data/telecom_churn.csv) · [Contract rates](assets/contract_type_churn.png) · [State share](assets/state_churn_map.png) · [Payment share](assets/payment-churn-share.png)
 
@@ -33,4 +33,4 @@ The income view is titled **Customer Distribution by Income**. It shows customer
 Data: WGU telecommunications-churn dataset; [source notes](data/README.md).  
 Open the [packaged workbook](tableau/customer_churn_dashboard.twbx) in Tableau.
 
-*Coursework for the M.S. in Data Analytics at Western Governors University (WGU), D601 Data Storytelling.*
+*WGU M.S. in Data Analytics coursework, D601 Data Storytelling.*
