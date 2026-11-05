@@ -1,5 +1,11 @@
-# Dashboard visuals | Portfolio edition
+# Dashboard visuals
 
-The main PNGs are crops from the corrected workbook rendered in Tableau Public Desktop in November 2026. `contract_type_churn.png` now contains the contract bars and `state_churn_map.png` the state map, matching their filenames. Payment labels use shares of churned customers.
+These screenshots show the Tableau workbook included in this repository.
 
-Files under `report-extracts/` are historical extracts from the submitted report and retain its original titles and labels. Use the current workbook, main screenshots and walkthrough for the corrected interpretation.
+- `dashboard_full.png`: complete dashboard.
+- `contract_type_churn.png`: within-contract churn rates.
+- `state_churn_map.png`: each state's share of churned customers.
+- `payment-churn-share.png`: each payment method's share of churned customers.
+- `income-distribution.png`: customer distribution by income bin and churn status.
+
+Payment slices and labels use the same denominator: all churned customers in the selected population.

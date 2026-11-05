@@ -1,6 +1,6 @@
 # A technical walkthrough of telecom churn
 
-[Open the live Tableau dashboard](https://public.tableau.com/app/profile/jesse.coggins6637/viz/ChurnRateDashboard_17756852469330/CustomerChurnDashboardKeyTrendsbyIncomeRegionContractPayment) to follow the analysis. The [27-second state-filter demonstration](state-filter-demo.mp4) is a historical excerpt from the original coursework presentation. Its older chart titles and payment labels differ from the corrected portfolio edition; use the current workbook and screenshots for the reconciled measures.
+[Open the live Tableau dashboard](https://public.tableau.com/app/profile/jesse.coggins6637/viz/ChurnRateDashboard_17756852469330/CustomerChurnDashboardKeyTrendsbyIncomeRegionContractPayment) to follow the analysis.
 
 ## 1. Set the baseline
 
